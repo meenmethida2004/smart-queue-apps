@@ -15,7 +15,7 @@ export default function App() {
   const [showQRModal, setShowQRModal] = useState(false);
 
   // ดึง URL ปัจจุบันมาใช้ทำ QR Code
-  const currentUrl = "https://ngrok.com/docs/errors/err_ngrok_4018";
+  const currentUrl = "smart-queue-apps-gto0dmy1e-meennys.vercel.app";
 
   // 1. ดึงข้อมูล Realtime จาก Firebase
   useEffect(() => {
