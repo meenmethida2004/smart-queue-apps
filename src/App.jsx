@@ -15,7 +15,7 @@ export default function App() {
   const [showQRModal, setShowQRModal] = useState(false);
 
   // ดึง URL ปัจจุบันมาใช้ทำ QR Code
-  const currentUrl = "smart-queue-apps-gto0dmy1e-meennys.vercel.app";
+  const currentUrl = "https://smart-queue-apps.vercel.app";
 
   // 1. ดึงข้อมูล Realtime จาก Firebase
   useEffect(() => {
